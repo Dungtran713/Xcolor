@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/header"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="60dp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:background="@color/pastel_purple"/>-->
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1" >
+
+
+            <Button
+                android:id="@+id/gen_color_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF03DAC5"
+                android:layout_weight="1"
+                android:text="@string/gen_color_text" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:weightSum="1">
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FF03DAC5" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:orientation="vertical">
+
+            <!--            <Space-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="80dp" />-->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/pastel_red"
+                android:gravity="center"
+                android:text="@string/textView1_text" />
+
+            <!--            <Space-->
+            <!--                android:layout_height="80dp"-->
+            <!--                android:layout_width="match_parent"/>-->
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/pastel_orange"
+                android:gravity="center"
+                android:text="@string/textView2_text" />
+            <!--            <Space-->
+            <!--                android:layout_height="80dp"-->
+            <!--                android:layout_width="match_parent"/>-->
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/pastel_yellow"
+                android:gravity="center"
+                android:text="@string/textView3_text" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/pastel_green"
+                android:gravity="center"
+                android:text="@string/textView4_text" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/pastel_purple"
+                android:gravity="center"
+                android:text="@string/textView5_text" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/pastel_blue"
+                android:gravity="center"
+                android:text="@string/textView6_text" />
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/color_wheel_button"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/teal_200"
+                android:gravity="center"
+                android:text="@string/color_wheel_text"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+
+
+            </Button>
+
+            <!--            <Button-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:text="- Color" />-->
+            <!--            <Button-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:text="+ Color " />-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
